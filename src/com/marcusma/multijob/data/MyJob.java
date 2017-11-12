@@ -16,7 +16,7 @@ public class MyJob implements IJob{
     }
 
     public MyJob(int index){
-        this(index,4000);
+        this(index,2000);
     }
 
     public MyJob(int index,int duration){

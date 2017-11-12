@@ -10,6 +10,7 @@ import org.jgrapht.graph.SimpleDirectedGraph;
 import org.jgrapht.traverse.TopologicalOrderIterator;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
  * Created by marcus on 2017/11/9.
@@ -31,6 +32,9 @@ public class Main {
         MyJob job3 = new MyJob(3);
         MyJob job4 = new MyJob(4);
         MyJob job5 = new MyJob(5);
+        MyJob job6 = new MyJob(6);
+        MyJob job7 = new MyJob(7);
+        MyJob job8 = new MyJob(8);
 
         // 基本操作：添加顶点
         mGraph.addVertex(job0);
@@ -39,6 +43,9 @@ public class Main {
         mGraph.addVertex(job3);
         mGraph.addVertex(job4);
         mGraph.addVertex(job5);
+        mGraph.addVertex(job6);
+        mGraph.addVertex(job7);
+        mGraph.addVertex(job8);
 
         // 基本操作：添加边
         mGraph.addEdge(job0, job1);
@@ -48,6 +55,8 @@ public class Main {
         // mGraph.addEdge(job0,job0); // 该步将形成自己到自己的边
         mGraph.addEdge(job5, job3);
         mGraph.addEdge(job5, job4);
+        mGraph.addEdge(job3, job6);
+        mGraph.addEdge(job3, job7);
 
         // 基本操作：顶点的出度和入度
         System.out.println(mGraph.inDegreeOf(job0));
@@ -105,7 +114,7 @@ public class Main {
      */
     public static void traverseAndExecuteJobs(DirectedGraph graph, int numOfThread) {
         System.out.println("Start traverseAndExecuteJobs");
-        Queue<MyJob> queue = new LinkedList<MyJob>();
+        Queue<MyJob> queue = new ConcurrentLinkedQueue<MyJob>();
         DirectedNeighborIndex<MyJob,DefaultEdge> neighborIndex = new DirectedNeighborIndex<MyJob, DefaultEdge>(graph);
 
         TopologicalOrderIterator iterator = new TopologicalOrderIterator(graph);

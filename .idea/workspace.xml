@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5e9e02b-57d9-434a-93dd-ac5ee8c606d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/marcusma/multijob/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/marcusma/multijob/data/IJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/marcusma/multijob/data/JobEdge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/marcusma/multijob/data/MyJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/marcusma/multijob/Main.java" afterPath="$PROJECT_DIR$/src/com/marcusma/multijob/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/marcusma/multijob/data/MyJob.java" afterPath="$PROJECT_DIR$/src/com/marcusma/multijob/data/MyJob.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,12 +32,12 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/marcusma/multijob/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="100" column="48" lean-forward="false" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+            <state relative-caret-position="-1805">
+              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3399#3406#0" expanded="true" />
-                <element signature="e#3500#3520#0" expanded="true" />
+                <element signature="e#3734#3741#0" expanded="true" />
+                <element signature="e#3835#3855#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +66,8 @@
       <file leaf-file-name="MyJob.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/marcusma/multijob/data/MyJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="e#457#458#0" expanded="true" />
                 <element signature="e#493#494#0" expanded="true" />
@@ -186,8 +184,8 @@
         <option value="$PROJECT_DIR$/src/com/marcusma/multijob/jgrapht/data/JobVertexFactory.java" />
         <option value="$PROJECT_DIR$/src/com/marcusma/multijob/alg/IBasicFunction.java" />
         <option value="$PROJECT_DIR$/src/com/marcusma/multijob/MainJGrapht.java" />
-        <option value="$PROJECT_DIR$/src/com/marcusma/multijob/data/MyJob.java" />
         <option value="$PROJECT_DIR$/src/com/marcusma/multijob/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/marcusma/multijob/data/MyJob.java" />
       </list>
     </option>
   </component>
@@ -766,12 +764,12 @@
       <updated>1510068955109</updated>
       <workItem from="1510068960332" duration="6087000" />
       <workItem from="1510235854245" duration="8058000" />
-      <workItem from="1510454249931" duration="8835000" />
+      <workItem from="1510454249931" duration="9382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22980000" />
+    <option name="totallyTimeSpent" value="23527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="23" width="1379" height="877" extended-state="0" />
@@ -789,7 +787,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3992095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3992095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -797,7 +795,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25729245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1223,8 +1221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/marcusma/multijob/data/MyJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="e#457#458#0" expanded="true" />
             <element signature="e#493#494#0" expanded="true" />
@@ -1236,12 +1234,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/marcusma/multijob/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="100" column="48" lean-forward="false" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+        <state relative-caret-position="-1805">
+          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3399#3406#0" expanded="true" />
-            <element signature="e#3500#3520#0" expanded="true" />
+            <element signature="e#3734#3741#0" expanded="true" />
+            <element signature="e#3835#3855#0" expanded="true" />
           </folding>
         </state>
       </provider>
