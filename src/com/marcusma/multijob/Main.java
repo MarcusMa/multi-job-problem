@@ -119,12 +119,14 @@ public class Main {
 
         TopologicalOrderIterator iterator = new TopologicalOrderIterator(graph);
 
+        System.out.print("TopologicalOrder: ");
         while (iterator.hasNext()) {
             MyJob job = (MyJob) iterator.next();
             System.out.print(" -> " + job.getIndex());
             job.setInDegreeCount(graph.inDegreeOf(job));
             queue.add(job);
         }
+        System.out.println();
 
         for(int i=0;i<numOfThread;i++){
             MyJobExecutor executor = new MyJobExecutor(queue,neighborIndex);
